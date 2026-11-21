@@ -96,7 +96,6 @@ def load_model():
 
 try:
     model, device = load_model()
-    st.success("Trained CNN model loaded successfully.")
 except Exception as e:
     st.error(f"Could not load the CNN model: {e}")
     st.stop()
